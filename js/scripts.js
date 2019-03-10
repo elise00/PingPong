@@ -1,11 +1,4 @@
-var pingPongNumber = function(year) {
-    if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {
-      return true;
-    } else {
-      return false;
-    }
-  };
-  
+ 
   $(document).ready(function() {
     $("form#pingpongform").submit(function(event) {
       event.preventDefault();
@@ -14,3 +7,15 @@ var pingPongNumber = function(year) {
       $("#result").text(result);
     });
   });
+
+  var pingPongNumber = function(input) {
+    if (numberz % 3 === 0) {
+        $(#result).text("Ping");
+    } else if (numberz % 5 === 0) {
+        $(#result).text("Pong");
+    } else  if (numberz % 15 === 0) {
+        $(#result).text("Ping Pong");
+    } else {
+        $(#result).text("numberz");
+    }
+  };
