@@ -3,6 +3,17 @@ for (var currentNumber = 1; currentNumber <= 300; currentNumber += 1) {
   total += currentNumber;
 }
 
+for (var i=1; i <= 300; i++){
+    if (i % 15 == 0) {
+    document.write("FizzBuzz");
+    } else if (i % 3 == 0) {
+    document.write("Fizz");
+    } else if (i % 5 == 0) {
+    document.write("Buzz");
+    } else 
+    document.write(i);
+    document.write('<br>');
+}
 
 // var numberz = [];
 //     for (var index = 1; index <= numberz; index +=1) {
