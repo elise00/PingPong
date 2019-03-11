@@ -1,6 +1,6 @@
 var total = 0;
-for (var currentNumber = 1; currentNumber <= 300; currentNumber += 1) {
-  total += currentNumber;
+for (var i = 1; i <= 300; i += 1) {
+  total += i;
 }
 
 for (var i=1; i <= 300; i++){
