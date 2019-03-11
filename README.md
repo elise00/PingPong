@@ -1,4 +1,4 @@
-# **Science Fiction Holiday**
+# **Ping Pong Numbers**
 
 ##### Looping and branching exercise for Epicodus, 3/10/2019
 
