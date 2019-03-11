@@ -9,7 +9,7 @@
 In this third project, I created a numbers ping pong game. 
 
 ## Link
-Click here to see the page in action: https://elise00.github.io/pingpong/ 
+Click here to see the page in action: https://elise00.github.io/PingPong/ 
 
 ## Support and contact details
  Contact me at eljc00@gmail.com.
