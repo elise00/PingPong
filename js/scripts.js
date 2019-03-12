@@ -14,11 +14,10 @@ for (var i = 1; i <= 300; i += 1) {
 
 $(document).ready(function() {
   $("#pingpongform").submit(function(event) {
-    $("result").text(result);
     event.preventDefault();
     // var numberz = parseInt($("input#numberz").val());
     // var result = total();
-
+    $("result").text(result);
   });
 });
 // var numberz = [];
