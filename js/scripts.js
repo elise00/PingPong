@@ -10,11 +10,19 @@ for (var i=1; i <= 300; i++){
     document.write("Fizz");
     } else if (i % 5 == 0) {
     document.write("Buzz");
-    } else 
+    } else
     document.write(i);
     document.write('<br>');
 }
 
+$(document).ready(function() {
+  // $("form#pingpongform").submit(function(event) {
+    event.preventDefault();
+    // var numberz = parseInt($("input#numberz").val());
+    var result = pingPongNumber(year);
+    $("#result").text(result);
+  });
+});
 // var numberz = [];
 //     for (var index = 1; index <= numberz; index +=1) {
 //     if (numberz % 3 === 0) {
@@ -25,14 +33,6 @@ for (var i=1; i <= 300; i++){
 //         $(result).text("Ping Pong");
 //     } else {
 //         $(result).text("numberz");
-//     }   
+//     }
 //     }
 //   };
-//   $(document).ready(function() {
-//     $("form#pingpongform").submit(function(event) {
-//       event.preventDefault();
-//       var numberz = parseInt($("input#numberz").val());
-//       var result = pingPongNumber(year);
-//       $("#result").text(result);
-//     });
-//   });
